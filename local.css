@@ -1,1 +1,81 @@
+body {
+  background: #fff;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+}
 
+body > .header {
+/*   position: relative; */
+}
+
+/* CONTENT DIV */
+body > .content {
+/*   margin: 50px auto auto auto; */
+/*   
+  margin: auto;*/
+}
+
+.width-longer body > .content {
+  width: 60%;
+  width: 30%;
+  margin: auto;
+}
+
+.height-longer body > .content {
+  width: 90%;
+  margin: 50px auto auto auto;
+}
+
+body > .content p {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.width-longer body .content p * {
+  font-size: 18px;
+}
+
+.height-longer body .content p * {
+  font-size: 14px;
+}
+
+body > .content span {
+  width: fit-content;
+  height: fit-content;
+  font-size: inherit !important;
+}
+
+/* FOOTER */
+body > .footer {
+  width: inherit;
+  height: 40px;
+  position: absolute;
+  position: relative;
+/*   border: 1px solid green; */
+  bottom: 10px;
+}
+
+body > .footer .social-media-profiles {
+  width: fit-content;
+  height: fit-content;
+/*   border: 1px solid purple; */
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+body > .footer a {
+  width: 40px;
+  height: 40px;
+/*   background: red; */
+  position: relative;
+  margin: auto 15px;
+}
+
+body > .footer a.icon::before {
+  width: inherit;
+  height: inherit;
+  background-size: 70%;
+}
