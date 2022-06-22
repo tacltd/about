@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+  width: 15px;
+  display: block;
+}
+
 body {
   background: #fff;
   font-family: Arial;
@@ -9,73 +14,99 @@ body > .header {
 /*   position: relative; */
 }
 
+
 /* CONTENT DIV */
 body > .content {
-/*   margin: 50px auto auto auto; */
-/*   
-  margin: auto;*/
-}
-
-.width-longer body > .content {
-  width: 60%;
-  width: 30%;
-  margin: auto;
-}
-
-.height-longer body > .content {
-  width: 90%;
+  width: 100%;
+  height: 100%;
   margin: 50px auto auto auto;
 }
 
-body > .content p {
+body > .content .bio {
+  margin: auto;
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
 }
 
-.width-longer body .content p * {
+.width-longer body > .content .bio {
+  width: 30%;
+}
+
+.height-longer body > .content .bio {
+  width: 90%;
+}
+
+
+/* CONTENT DIV PARAGRAPH */
+body > .content p {
+  line-height: 1.2;
+  user-select: none;
+}
+
+.width-longer .content p {
   font-size: 18px;
 }
 
-.height-longer body .content p * {
+.height-longer .content p * {
   font-size: 14px;
 }
 
-body > .content span {
+.content .bio span {
   width: fit-content;
   height: fit-content;
-  font-size: inherit !important;
+  font-size: inherit;
+  margin: auto;
 }
 
-/* FOOTER */
-body > .footer {
-  width: inherit;
-  height: 40px;
-  position: absolute;
+
+/* COMPANY CONTAINER */
+.content .bio .company-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto auto 40px auto;
+/*   border-bottom: 1px solid #efefef; */
+}
+
+
+/* COMPANY CONTAINER - IMG */
+.bio .company-container img {
+  width: 100%;
+  height: auto;
+  margin: auto auto 15px auto;
+/*   margin: auto; */
+  border-radius: 15px;
   position: relative;
-/*   border: 1px solid green; */
-  bottom: 10px;
 }
 
-body > .footer .social-media-profiles {
+
+/* SOCIAL MEDIA PROFILES */
+.social-media-profiles {
   width: fit-content;
   height: fit-content;
-/*   border: 1px solid purple; */
   display: flex;
   flex-direction: row;
   margin: auto;
 }
 
-body > .footer a {
+.social-media-profiles a {
   width: 40px;
   height: 40px;
-/*   background: red; */
   position: relative;
   margin: auto 15px;
 }
 
-body > .footer a.icon::before {
+.social-media-profiles a.icon::before {
   width: inherit;
   height: inherit;
   background-size: 70%;
+}
+
+
+/* FOOTER */
+body > .footer {
+  width: inherit;
+  height: 40px;
+  margin-bottom: 0px;
 }
