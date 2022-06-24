@@ -3,7 +3,18 @@
   display: block;
 }
 
+::-webkit-scrollbar-thumb {
+  width: inherit;
+  height: 25px;
+  background: #c3c3c3;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
 body {
+  height: fit-content;
   background: #fff;
   font-family: Arial;
   display: flex;
@@ -12,6 +23,7 @@ body {
 
 body > .header {
 /*   position: relative; */
+  position: fixed;
 }
 
 
@@ -78,6 +90,7 @@ body > .content p {
 /*   margin: auto; */
   border-radius: 15px;
   position: relative;
+  user-select: none;
 }
 
 
@@ -106,7 +119,27 @@ body > .content p {
 
 /* FOOTER */
 body > .footer {
-  width: inherit;
-  height: 40px;
-  margin-bottom: 0px;
+  width: 100%;
+  height: fit-content;
+/*   border: 1px solid black; */
+  margin: auto auto 20px auto;
+}
+
+body > .footer p {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.width-longer body > .footer p {
+  width: 50%;
+}
+
+.height-longer body > .footer p {
+  width: 90%;
+}
+
+body > .footer p a {
+  text-decoration: underline;
+  font-weight: bold;
 }
