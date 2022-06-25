@@ -41,7 +41,7 @@ body > .content .bio {
 }
 
 .width-longer body > .content .bio {
-  width: 30%;
+  width: 50%;
 }
 
 .height-longer body > .content .bio {
@@ -101,6 +101,63 @@ body > .content p {
   display: flex;
   flex-direction: row;
   margin: auto;
+  border-radius: 15px;
+}
+
+.tapr .social-media-profiles {
+  background: white;
+}
+
+.dash-water-company .social-media-profiles {
+  background: #00379c;
+}
+
+.jojos-web .social-media-profiles {
+  background: white;
+}
+
+.cow-restaurant .social-media-profiles {
+  background: maroon;
+}
+
+.jojos-photo-studio .social-media-profiles {
+  background: #a3a3a3;
+}
+
+.raging-bull-theaters .social-media-profiles {
+  background: #111;
+}
+
+.twge-farms .social-media-profiles {
+  background: #006735;
+}
+
+.acolorblue .social-media-profiles {
+  background: #deddd9;
+}
+
+.dingdong-delivery .social-media-profiles {
+  background: #8d8d81;
+}
+
+.the-goodtime-plaza .social-media-profiles {
+  background: #ddc39e;
+}
+
+.social-media-profiles {
+  background: ;
+}
+
+.social-media-profiles {
+  background: ;
+}
+
+.social-media-profiles {
+  background: ;
+}
+
+.social-media-profiles {
+  background: ;
 }
 
 .social-media-profiles a {
