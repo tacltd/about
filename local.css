@@ -93,6 +93,21 @@ body > .content p {
   user-select: none;
 }
 
+.bio .company-container img,
+.bio .company-container .social-media-profiles {
+/*   box-shadow: 0px 1px 7px #efefef; */
+  box-shadow: 0px 1px 7px #d3d3d3;
+}
+
+
+.bio .company-container.tapr img,
+.bio .company-container.tapr .social-media-profiles,
+.bio .company-container.jojos-web img,
+.bio .company-container.jojos-web .social-media-profiles {
+/*   box-shadow: 0px 1px 7px #efefef; */
+/*   box-shadow: 0px 1px 7px #d3d3d3; */
+}
+
 
 /* SOCIAL MEDIA PROFILES */
 .social-media-profiles {
@@ -137,7 +152,7 @@ body > .content p {
 }
 
 .dingdong-delivery .social-media-profiles {
-  background: #8d8d81;
+  background: #dad8cb;
 }
 
 .the-goodtime-plaza .social-media-profiles {
