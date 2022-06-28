@@ -100,12 +100,9 @@ body > .content p {
 }
 
 
-.bio .company-container.tapr img,
-.bio .company-container.tapr .social-media-profiles,
-.bio .company-container.jojos-web img,
-.bio .company-container.jojos-web .social-media-profiles {
-/*   box-shadow: 0px 1px 7px #efefef; */
-/*   box-shadow: 0px 1px 7px #d3d3d3; */
+.bio .company-container.tac img,
+.bio .company-container.tac .social-media-profiles {
+/*   box-shadow: none; */
 }
 
 
@@ -128,7 +125,9 @@ body > .content p {
 }
 
 .jojos-web .social-media-profiles {
-  background: white;
+/*   background: #ffae00; */
+/*   background: #ffffff; */
+  background: #b1b1b1;
 }
 
 .cow-restaurant .social-media-profiles {
