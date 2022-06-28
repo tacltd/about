@@ -99,6 +99,10 @@ body > .content p {
   box-shadow: 0px 1px 7px #d3d3d3;
 }
 
+.bio .company-container.twge-farms img {
+  border-radius: 50%;
+}
+
 
 .bio .company-container.tac img,
 .bio .company-container.tac .social-media-profiles {
