@@ -93,6 +93,14 @@ body > .content p {
   user-select: none;
 }
 
+.width-longer .bio .company-container img.logo.square {
+  display: none;
+}
+
+.height-longer .bio .company-container img.logo.rectangle {
+  display: none;
+}
+
 .bio .company-container img,
 .bio .company-container .social-media-profiles {
 /*   box-shadow: 0px 1px 7px #efefef; */
