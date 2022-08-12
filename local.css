@@ -94,9 +94,14 @@ body > .content p {
 }
 
 .width-longer .bio .company-container img.logo.square {
-  display: none;
+/*   display: none; */
 }
 
+.height-longer .bio .company-container img.logo.rectangle {
+/*   display: none; */
+}
+
+.width-longer .bio .company-container img.logo.rectangle,
 .height-longer .bio .company-container img.logo.rectangle {
   display: none;
 }
@@ -178,8 +183,8 @@ body > .content p {
   background: #333333;
 }
 
-.social-media-profiles {
-  background: ;
+.tcmmc .social-media-profiles {
+  background: #010080;
 }
 
 .social-media-profiles {
